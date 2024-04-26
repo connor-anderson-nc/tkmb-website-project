@@ -1,0 +1,26 @@
+body {
+    color: white;
+}
+
+header {
+    background-color: rgb(53, 63, 78);
+}
+
+p {
+    max-width: 40vw;
+}
+
+main {
+    background-image: url("./images/tkam_poster_image-752472650.png");
+    filter: brightness(50%);
+}
+
+#main-content {
+    filter: brightness(100%);
+}
+
+#timeline-placeholder {
+    height: 5vh;
+    width: 90vw;
+    background-color: rgb(53, 63, 78);
+}
