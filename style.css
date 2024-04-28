@@ -1,26 +1,54 @@
 body {
     color: white;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+h4 {
+    margin-top: 0;
+    font-style: italic;
 }
 
 header {
     background-color: rgb(53, 63, 78);
+    margin: 0;
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    right: 0;
+    height: 10vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
 }
 
-p {
+#paragraph > p {
     max-width: 40vw;
+    font-size: 20px;
 }
 
 main {
-    background-image: url("./images/tkam_poster_image-752472650.png");
-    filter: brightness(50%);
+    background-image: url("./images/poster-dimmed-blured-upscaled.png");
+    margin: 0;
+    margin-top: 10vh;
+    background-size: cover;
+    height: 90vh;
+    padding: 10px;
 }
 
-#main-content {
-    filter: brightness(100%);
+#timeline-container {
+    margin-top: 8%;
 }
 
 #timeline-placeholder {
     height: 5vh;
     width: 90vw;
     background-color: rgb(53, 63, 78);
+    margin: 0 auto;
 }

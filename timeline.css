@@ -1,0 +1,54 @@
+#timeline-container {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+/* line */
+#timeline {
+    height: 1vh;
+    width: 95vw;
+    background-color: white;
+    margin: 0 auto;
+    position: absolute;
+    margin-top: 8px;
+    border-radius: 30px;
+}
+
+/* dots */
+.timeline-item {
+    width: 20px;
+    height: 20px;
+    background-color: cadetblue;
+    border-radius: 360px;
+    border: solid white 4px;
+    margin: 0 auto;
+    z-index: 20;
+    transition: transform 0.2s;
+}
+
+.timeline-item:hover {
+    transform: scale(1.05);
+}
+
+/* dot labels */
+.timeline-text {
+    position: relative;
+    bottom: 70px;
+    right: 15px;
+    text-align: center;
+    font-size: 25px;
+    font-family: sans;
+}
+
+/* info boxes */ 
+.item-info {
+    position: relative;
+    background-color: white;
+    width: 260px;
+    height: 380px;
+    right: 115px;
+    top: -60px;
+    border-radius: 20px;
+    display: none;
+}

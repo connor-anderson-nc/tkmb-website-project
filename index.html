@@ -3,6 +3,8 @@
     <head>
         <title>to kill a mockingbird timeline</title>
         <link rel="stylesheet" type="text/css" href="./style.css">
+        <link rel="stylesheet" type="text/css" href="./timeline.css">
+        <script src="./item-info-show.js" async></script>
     </head>
     <body>
         <header>
@@ -10,21 +12,60 @@
             <h4>To Kill a Mockingbird</h4>
         </header>
         <Main>
-            <div id="main-content">
-                <div id="paragraph">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        Sed do eiusmod tempor incididunt ut labore et dolore magna 
-                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-                        laboris nisi ut aliquip ex ea commodo consequat. 
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse 
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
-                        cupidatat non proident, sunt in culpa qui officia deserunt mollit 
-                        anim id est laborum.
-                    </p>
-                </div>
-                <div id="timeline">
-                    <div id="timeline-placeholder"></div>
+            <div id="paragraph">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Sed do eiusmod tempor incididunt ut labore et dolore magna 
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                    laboris nisi ut aliquip ex ea commodo consequat. 
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse 
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
+                    cupidatat non proident, sunt in culpa qui officia deserunt mollit 
+                    anim id est laborum.
+                </p>
+            </div>
+            <div id="timeline-container">
+                <div id="timeline"></div>
+                    <div class="timeline-item" id="t1" onclick="show_info('#t1')">
+                        <div class="timeline-text">
+                            <h6>yippee</h6>
+                        </div>
+                        <div class="item-info">
+
+                        </div>
+                    </div>
+                    <div class="timeline-item" id="t2" onclick="show_info('#t2')">
+                        <div class="timeline-text">
+                            <h6>yippee</h6>
+                        </div>
+                        <div class="item-info">
+                            
+                        </div>
+                    </div>
+                    <div class="timeline-item" id="t3" onclick="show_info('#t3')">
+                        <div class="timeline-text">
+                            <h6>yippee</h6>
+                        </div>
+                        <div class="item-info">
+                            
+                        </div>
+                    </div>
+                    <div class="timeline-item" id="t4" onclick="show_info('#t4')">
+                        <div class="timeline-text">
+                            <h6>yippee</h6>
+                        </div>
+                        <div class="item-info">
+                            
+                        </div>
+                    </div>
+                    <div class="timeline-item" id="t5" onclick="show_info('#t5')">
+                        <div class="timeline-text">
+                            <h6>yippee</h6>
+                        </div>
+                        <div class="item-info">
+                            
+                        </div>
+                    </div>
                 </div>
             </div>
         </Main>
