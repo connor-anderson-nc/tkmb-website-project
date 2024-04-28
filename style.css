@@ -29,7 +29,7 @@ header {
 }
 
 #paragraph > p {
-    max-width: 40vw;
+    max-width: 50vw;
     font-size: 20px;
 }
 
@@ -38,7 +38,7 @@ main {
     margin: 0;
     margin-top: 10vh;
     background-size: cover;
-    height: 90vh;
+    height: 110vh;
     padding: 10px;
 }
 
