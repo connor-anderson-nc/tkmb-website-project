@@ -42,13 +42,3 @@ main {
     padding: 10px;
 }
 
-#timeline-container {
-    margin-top: 8%;
-}
-
-#timeline-placeholder {
-    height: 5vh;
-    width: 90vw;
-    background-color: rgb(53, 63, 78);
-    margin: 0 auto;
-}
