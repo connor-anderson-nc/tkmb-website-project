@@ -52,4 +52,5 @@
     top: -60px;
     border-radius: 20px;
     display: none;
+    cursor: default;
 }
