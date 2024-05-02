@@ -1,7 +1,7 @@
 #timeline-container {
-    margin-top: 10%;
     display: flex;
     justify-content: center;
+    margin: 10% auto;
 }
 
 /* line */
@@ -53,4 +53,21 @@
     border-radius: 20px;
     display: none;
     cursor: default;
+    color: black;
+    padding: 10px;
+}
+
+.quote {
+    border-left-color: cadetblue;
+    border-left-style: solid;
+    border-left-width: 5px;
+    padding-left: 5px;
+    margin:0;
+    font-size: 12px;
+}
+
+
+/* fix to last box going off screen */
+#t5 > .item-info {
+    right: 135px;
 }
