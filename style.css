@@ -26,6 +26,7 @@ header {
     justify-content: center;
     align-content: center;
     flex-direction: column;
+    z-index: 40;
 }
 
 #paragraph > p {
